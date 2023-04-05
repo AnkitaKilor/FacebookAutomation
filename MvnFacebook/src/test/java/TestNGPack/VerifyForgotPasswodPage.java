@@ -43,6 +43,10 @@ public class VerifyForgotPasswodPage extends Base
 		   {
 			driver = openFirefoxBrowser();
 		   }
+		   if (browserName.equals("Opera"))
+		   {
+			driver = openFirefoxBrowser();
+		   }
 		   
 		   driver.manage().window().maximize();
 		   driver.manage().timeouts().implicitlyWait(20000,TimeUnit.MILLISECONDS);
