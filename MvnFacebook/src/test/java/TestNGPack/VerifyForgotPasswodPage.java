@@ -50,6 +50,12 @@ public class VerifyForgotPasswodPage extends Base
 		   
 		   driver.manage().window().maximize();
 		   driver.manage().timeouts().implicitlyWait(20000,TimeUnit.MILLISECONDS);
+		   
+		    driver.manage().window().maximize();
+		   driver.manage().timeouts().implicitlyWait(20000,TimeUnit.MILLISECONDS);
+		   
+		    driver.manage().window().maximize();
+		   driver.manage().timeouts().implicitlyWait(20000,TimeUnit.MILLISECONDS);
 	   }
 	   @BeforeClass
 	   public void beforeclass() {
